@@ -1,0 +1,120 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+nav{
+    padding: 0px 60px;
+    background-color: rgb(199, 199, 55);
+    color: black;
+}
+
+
+.novBarTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.searchinput{
+    border: none;
+    background-color: transparent;
+
+}
+.searchinput::placeholder{
+    color: lightgray;
+}
+.limitedoffer{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.novBarBottom{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content:center ;
+}
+.menuItem{
+    margin-right: 50px;
+    font-weight: 40px;
+}
+.slider {
+    background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+    
+    overflow: hidden;    
+}
+
+.sliderwrapper{
+    display: flex;
+    width: 500vw;
+    transition: all 1.5s ease-in-out;
+    
+}
+.slideritem{
+ 
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.sliertitle{
+    position: absolute;
+    top: 10%;left:100px;
+    font-size: 60px;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    
+}
+.sliderprice{
+    position: absolute;
+    top: 10%;right:100px;
+    font-size: 60px;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 1px solid black;
+    
+}
+.buyButton{
+    position: absolute;
+    bottom: 50px;
+    right:150px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 30px;
+    background-color: gray;
+    font-weight: 900;
+    color: aliceblue;
+    cursor: pointer;
+    border: 1px green;
+}
+
+.buyButton:hover{
+    background-color: red;
+    color: yellow;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    text-align: center;
+    
+    bottom: 0;
+    
+  }
